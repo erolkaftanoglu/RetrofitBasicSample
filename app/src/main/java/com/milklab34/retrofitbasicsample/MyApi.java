@@ -12,6 +12,6 @@ import retrofit2.http.GET;
 public interface MyApi {
     String url = "https://api.github.com/repos/";
 
-    @GET("erolkaftanoglu/gitworkshop")
+    @GET("erolkaftanoglu/RetrofitBasicSample")
     Call<GetRepo> getRepo();
 }
